@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+}
+
+.page-1{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  height: 400px;
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  flex-basis: auto;
+  align-self: flex-end;
+}
+
+.page-1 .image{
+  display: block;
+  background-color: rgba(149, 158, 172, 0.2);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  padding: 15px;
+}
+
+.page-1 h2{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding: 10px;
+}
+
+.page-1 p{
+  color: hsl(217, 12%, 63%);
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-left: 10px;
+}
+
+.page-1 .radio{
+  margin-top: 5px;
+  display: none;
+}
+
+.page-1 label{
+  background-color: rgba(149, 158, 172, 0.2);
+  color: hsl(0, 0%, 100%);
+  width: 60px;
+  height: 50px;
+  margin-top: 15px;
+  margin: 10px;
+  /* padding: 25px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.page-1 label:hover{
+  background-color: rgba(149, 158, 172, 0.6);
+}
+
+.page-1 .options input[type="radio"]:checked + label{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.page-1 .btn{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-family:'Overpass', sans-serif;
+  font-size: 20px;
+  line-height: 1.5rem;
+  width: 350px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s all;
+}
+
+.page-1 .btn:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
