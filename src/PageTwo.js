@@ -1,10 +1,12 @@
 import React from 'react'
 import {ReactComponent as Image} from './images/illustration-thank-you.svg'
 
-export default function PageTwo() {
+export default function PageTwo({rating}) {
+  // let chosenRating = document.getElementById('chosen-rating');
+  console.log();
   return (
-    <div className='page-two'>
-        <Image/>
+    <div className='page-2'>
+        <Image className='image-2'/>
         <h4>You have selected 4 out of 5</h4>
         <h2>Thank you!</h2>
         <p>

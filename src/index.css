@@ -99,3 +99,50 @@ body{
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
+
+.page-2{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  height: 400px;
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  /* display: none; */
+}
+
+.page-2 .image-2{
+  margin: 20px;
+  margin-left: 90px;
+}
+
+.page-2 h4{
+  background-color: rgba(149, 158, 172, 0.2);
+  border-radius: 15px;
+  width: 40%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: hsl(25, 97%, 53%);
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+.page-2 h2{
+  color: hsl(0, 0%, 100%);
+  margin-top: 30px;
+  /* margin-left: 90px; */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.page-2 p{
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  align-self: center;
+  line-height: 1.5rem;
+  text-align: center;
+}
