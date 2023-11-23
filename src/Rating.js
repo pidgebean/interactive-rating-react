@@ -1,25 +1,25 @@
 import {ReactComponent as Star} from './images/icon-star.svg'
 import {NavLink} from 'react-router-dom'
 
-export default function Rating() {
+export default function Rating({setRating}) {
   function whichRating(){
-    let chosenRating = 0;
+    
     if (document.getElementById("star-1").checked) {
-        chosenRating = 1;
+        setRating(1)
     }
     if (document.getElementById("star-2").checked) {
-        chosenRating = 2;
+      setRating(2)
     }
     if (document.getElementById("star-3").checked) {
-        chosenRating = 3;
+      setRating(3)
     }
     if (document.getElementById("star-4").checked) {
-        chosenRating = 4;
+      setRating(4)
     }
     if (document.getElementById("star-5").checked) {
-        chosenRating = 5;
+      setRating(5)
     }
-    console.log(chosenRating);
+    
   }
   return (
     <div className='page-1'>

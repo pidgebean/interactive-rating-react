@@ -7,7 +7,7 @@ export default function PageTwo({rating}) {
   return (
     <div className='page-2'>
         <Image className='image-2'/>
-        <h4>You have selected 4 out of 5</h4>
+        <h4>You have selected {rating} out of 5</h4>
         <h2>Thank you!</h2>
         <p>
             We appreciate you taking the time to give a rating.
